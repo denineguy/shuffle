@@ -4,8 +4,7 @@
 # property of a good shuffle method is that ever permutation is equally likely.
 
 
-def shuffle
-  array = [1,4,5,7]
+def shuffle(array)
   new_array = []
   until array.empty?
     i = rand(0..array.length)
@@ -14,3 +13,5 @@ def shuffle
   end
   new_array
 end
+
+shuffle([1,2,3,4])
