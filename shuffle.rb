@@ -1,3 +1,9 @@
+#Shuffle Question
+# Without using a shuffle or sort write your own shuffle method for an array.  The method will
+# take an array and return a new array with all of the elements ina random order.  One important
+# property of a good shuffle method is that ever permutation is equally likely.
+
+
 def shuffle
   array = [1,4,5,7]
   new_array = []
